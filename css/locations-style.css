@@ -1,0 +1,52 @@
+.locations {
+    display:flex
+}
+
+
+.map-text {
+    width:50vw;
+    padding-left:5vw;
+}
+
+.map-img {
+    width:50vw;
+}
+
+.map-img img {
+    width: 50vw;
+    object-fit: scale-down;
+}
+
+main {
+    margin-inline: 10px 10px;
+}
+
+p, h3 {
+    font-size:1em;
+    padding-left:20px;
+}
+
+h2 {
+    font-size:2em;
+}
+
+@media screen and (max-width:1000px)
+{
+    .locations{
+        flex-direction: column;
+    }
+
+    .map-text {
+        width:100vw;
+        padding-left:5vw;
+    }
+    
+    .map-img {
+        width:100vw;
+    }
+    
+    .map-img img {
+        width: 100vw;
+        object-fit: scale-down;
+    }
+}

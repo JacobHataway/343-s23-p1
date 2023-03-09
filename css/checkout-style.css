@@ -1,0 +1,42 @@
+
+main {
+    display: flex;
+    margin-inline: 10px 10px;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+
+.payment {
+    width:50vw;
+    min-width:300px;
+}
+
+.cart {
+    width: 30vw;
+}
+
+input.inline {
+    width:100%;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+form div {
+    display:flex;
+    min-width:40vw;
+    max-width:60vw;
+    justify-content: space-around;
+    gap:10px;
+}
+
+div label {
+    width:50%;
+    text-align:left;
+}
+
+input[type=submit] {
+    margin-top:10px;
+}

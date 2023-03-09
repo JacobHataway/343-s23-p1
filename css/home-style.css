@@ -1,0 +1,106 @@
+/* Deal section */
+img.bogo-img {
+    max-width:200px;
+    max-height:194px;
+}
+
+.deal {
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-inline: 5vw;
+    margin-bottom:50px;
+}
+
+.deal-text h2 {
+    font-size: 3em;
+}
+
+
+
+.deal-text p {
+    padding-inline:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Flavor section */
+
+.scroll-flavors {
+    display: flex;
+    overflow-x: auto;
+}
+
+.scroll-flavors img {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #5D5C61;
+    border-width:1px;
+}
+
+.flavor-section {
+    background-color: #FAA0A0;
+    padding: 10px 10px 10px 10px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #5D5C61;
+}
+
+.scroll-flavors::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-item h4 {
+    text-align: center;
+}
+
+/* Ice Cream section */
+.ice-cream {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-block: 10px 10px;
+}
+
+.ice-cream img {
+    max-width: 40vw;
+    height: auto;
+    object-fit: scale-down;
+}
+
+@media screen and (max-width: 1200px) {
+    .ice-cream {
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-inline:10px 10px;
+    }
+    .ice-cream img {
+        max-width: 94vw;
+        align-self: center;
+    }
+
+    .ice-cream-text {
+        width: 94vw;
+        margin-inline:3vw 3vw;
+    }
+
+    .ice-cream-text p {
+        width: 94vw;
+        padding:0;
+    }
+}
+
+
+span a, span a:link, span a:visited {
+    text-decoration:none;
+    color:#BB0A21;
+    
+}
+
+span a:hover {
+    color:#1E152A;
+}
