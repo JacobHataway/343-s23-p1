@@ -1,14 +1,17 @@
+/* checkout-style.css -- style for checkout page.
+ * author: Jacob Hataway
+ */
 
 main {
     display: flex;
     margin-inline: 10px 10px;
     justify-content: space-between;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .payment {
-    width:50vw;
-    min-width:300px;
+    width: 50vw;
+    min-width: 300px;
 }
 
 .cart {
@@ -16,27 +19,27 @@ main {
 }
 
 input.inline {
-    width:100%;
+    width: 100%;
 }
 
 form {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
 form div {
-    display:flex;
-    min-width:40vw;
-    max-width:60vw;
+    display: flex;
+    min-width: 40vw;
+    max-width: 60vw;
     justify-content: space-around;
-    gap:10px;
+    gap: 10px;
 }
 
 div label {
-    width:50%;
-    text-align:left;
+    width: 50%;
+    text-align: left;
 }
 
 input[type=submit] {
-    margin-top:10px;
+    margin-top: 10px;
 }

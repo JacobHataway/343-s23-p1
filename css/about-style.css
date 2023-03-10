@@ -1,3 +1,7 @@
+/* about-style.css -- style for about page.
+ * author: Jacob Hataway
+ */
+
 .about-img {
     object-fit:scale-down;
     max-width:45vw;

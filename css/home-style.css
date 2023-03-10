@@ -1,25 +1,27 @@
+/* home-style.css -- style for home page.
+ * author: Jacob Hataway
+ */
+
 /* Deal section */
 img.bogo-img {
-    max-width:200px;
-    max-height:194px;
+    max-width: 200px;
+    max-height: 194px;
 }
 
 .deal {
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items: center;
     padding-inline: 5vw;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .deal-text h2 {
     font-size: 3em;
 }
 
-
-
 .deal-text p {
-    padding-inline:10px;
+    padding-inline: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -38,7 +40,7 @@ img.bogo-img {
     border-radius: 20px;
     border-style: solid;
     border-color: #5D5C61;
-    border-width:1px;
+    border-width: 1px;
 }
 
 .flavor-section {
@@ -57,6 +59,18 @@ img.bogo-img {
     text-align: center;
 }
 
+span a,
+span a:link,
+span a:visited {
+    text-decoration: none;
+    color: #BB0A21;
+
+}
+
+span a:hover {
+    color: #1E152A;
+}
+
 /* Ice Cream section */
 .ice-cream {
     display: flex;
@@ -71,13 +85,15 @@ img.bogo-img {
     object-fit: scale-down;
 }
 
+/* Media Queries */
 @media screen and (max-width: 1200px) {
     .ice-cream {
-        display:flex;
+        display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        padding-inline:10px 10px;
+        padding-inline: 10px 10px;
     }
+
     .ice-cream img {
         max-width: 94vw;
         align-self: center;
@@ -85,22 +101,11 @@ img.bogo-img {
 
     .ice-cream-text {
         width: 94vw;
-        margin-inline:3vw 3vw;
+        margin-inline: 3vw 3vw;
     }
 
     .ice-cream-text p {
         width: 94vw;
-        padding:0;
+        padding: 0;
     }
-}
-
-
-span a, span a:link, span a:visited {
-    text-decoration:none;
-    color:#BB0A21;
-    
-}
-
-span a:hover {
-    color:#1E152A;
 }
